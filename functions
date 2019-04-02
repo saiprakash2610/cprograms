@@ -1,0 +1,14 @@
+#include<stdio.h>
+main()
+int(a,b)
+{
+printf("enter value for a and b");
+s=add(a,b)
+printf("%d",s);
+}
+add(intx,inty)
+{
+intc;
+c=x+y
+printf("%d",c)
+}
