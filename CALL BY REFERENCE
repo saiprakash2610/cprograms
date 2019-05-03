@@ -1,0 +1,14 @@
+#include<stdio.h>
+int add()
+int main()
+int a,sum
+{
+printf("enter the number");
+scanf("%d",a);
+int add(int a)
+}
+int add(int*c);
+{
+sum=*c+1
+printf("%d",sum);
+}
