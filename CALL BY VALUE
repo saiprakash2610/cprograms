@@ -1,0 +1,15 @@
+
+#include<stdio.h>
+int main()
+{
+ int a;
+ printf("enter the number");
+ scanf("%d",a);
+int c=add(a);
+printf("%d",c);
+scanf("%d",c);
+}
+int add(int a)
+{
+a+1;
+}
