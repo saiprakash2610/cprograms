@@ -2,10 +2,10 @@
 int add(int);
 int main()
 {
- int a,c;
- printf("enter the number\n");
- scanf("%d",&a);
-c=add(int a);
+ int m,c;
+printf("enter the number\n");
+scanf("%d",&m);
+c=add(m);
 printf("%d",c);
 }
 int add(int m)
