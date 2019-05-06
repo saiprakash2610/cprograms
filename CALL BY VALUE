@@ -1,15 +1,16 @@
-
 #include<stdio.h>
+int add(int);
 int main()
 {
- int a;
- printf("enter the number");
- scanf("%d",a);
-int c=add(a);
+ int a,c;
+ printf("enter the number\n");
+ scanf("%d",&a);
+c=add(int a);
 printf("%d",c);
-scanf("%d",c);
 }
-int add(int a)
+int add(int m)
 {
-a+1;
+int c;
+c=m+1;
+return c;
 }
