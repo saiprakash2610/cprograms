@@ -5,13 +5,13 @@ int a[10],n,i,sum=0;
 printf("enter the number of elements in an array");
 scanf("%d",&n);
 printf("enter n elements");
-for(i=0;i<n,i++)
-{scanf("%d",&a[i])
+for(i=0;i<n;i++)
+{scanf("%d",&a[i]);
 }
 printf("sum of array elements is");
-for(i=0,i<n,i++)
+for(i=0;i<n;i++)
 {
-sum=sum+a[i]
+sum=sum+a[i];
 }
 printf("sum of %d elements in an array is %d \n",n,sum);
 }
